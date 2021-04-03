@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "pk_test_51HMSxfKHfV2pnd7xdNZOwOwjzjME3KKTlgLiiyQ8kKDNde1T9o1WDRENCIXFbMGvhNb8txMLOxtkV1H69WMMRRCu00PNYljaly",
+      "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "https://3.20.238.52:4000/shop/graphql"
+    }
+  }
+}

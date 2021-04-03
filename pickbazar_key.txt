@@ -1,0 +1,10 @@
+https://919307570349.signin.aws.amazon.com/console
+User: Viktor
+
+Access key ID: AKIA5MCYAJSWRWLCMVEL
+
+Secret access key: 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
+
+Password: Jy#HLYRh*2{7
+
+STRIPE_API_KEY: pk_test_51HMSxfKHfV2pnd7xdNZOwOwjzjME3KKTlgLiiyQ8kKDNde1T9o1WDRENCIXFbMGvhNb8txMLOxtkV1H69WMMRRCu00PNYljaly

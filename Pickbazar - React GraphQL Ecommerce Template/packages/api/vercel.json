@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "./server.admin.ts",
+      "use": "@now/node-server"
+    },
+    {
+      "src": "./server.shop.ts",
+      "use": "@now/node-server"
+    }
+  ],
+
+  "routes": [
+    {
+      "cleanUrls": true
+    },
+    {
+      "src": "/admin/graphql",
+      "dest": "server.admin.ts"
+    },
+    {
+      "src": "/shop/graphql",
+      "dest": "server.shop.ts"
+    },
+    {
+      "src": "/admin_productimage",
+      "dest": "server.admin.ts"
+    },
+    {
+      "src": "/shop_productimage",
+      "dest": "server.shop.ts"
+    },
+    {
+      "src": "/shop_giftcardimage",
+      "dest": "server.shop.ts"
+    },
+    {
+      "src": "avatar",
+      "dest": "/avatar/123.png"
+    }]
+}
